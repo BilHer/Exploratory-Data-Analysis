@@ -1,6 +1,6 @@
 datos <- read.csv("./ExploratoryDAta/household_power_consumption.txt",
-                      header = T, sep = ';', na.strings = "?", nrows = 2075259, 
-                      check.names = F, stringsAsFactors = F, comment.char = "", quote = '\"')
+                    header = T, sep = ';', na.strings = "?", nrows = 2075259, 
+                    check.names = F, stringsAsFactors = F, comment.char = "", quote = '\"')
 datos$Date <- as.Date(datos$Date, format = "%d/%m/%Y")
 data <- subset(datos, subset = (Date >= "2007-02-01" & Date <= "2007-02-02"))
 rm(datos)
