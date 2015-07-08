@@ -80,7 +80,7 @@ pixels and a height of 480 pixels.
 constructs the corresponding plot, i.e. code in `plot1.R` constructs
 the `plot1.png` plot. Your code file **should include code for reading
 the data** so that the plot can be fully reproduced. You should also
-include the code that creates the PNG file.
+include the code that creates the PNG file. 
 
 * Add the PNG file and R code file to your git repository
 
